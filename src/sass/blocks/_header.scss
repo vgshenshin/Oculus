@@ -3,8 +3,8 @@
 }
 
 .nav {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
     align-items: center;
     height: 80px;
 }
@@ -12,9 +12,17 @@
 .menu {
     display: flex;
     gap: 0 20px;
+    &__link {
+        text-transform: uppercase;
+    }
+}
+
+.logo {
+    justify-self: center;
 }
 
 .basket {
+    justify-self: end;
     position: relative;
     span {
         font-size: 11px;
