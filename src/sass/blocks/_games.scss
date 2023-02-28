@@ -8,12 +8,7 @@
         width: 300px;
         padding-right: 10px;
         &-title {
-            font-size: 36px;
-            text-transform: uppercase;
-            background: linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
+            @include gradient_text;
             margin-bottom: 10px;
         }
         &-text {

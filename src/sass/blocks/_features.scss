@@ -9,14 +9,8 @@
     }
     &__text {
         max-width: 330px;
-        font-size: 36px;
-        line-height: 41px;
-        text-transform: uppercase;
-        background: linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
         margin-bottom: 20px;
+        @include gradient_text;
     }
 }
 
