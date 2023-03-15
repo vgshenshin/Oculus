@@ -1,17 +1,3 @@
-@mixin before_circle {
-    &:before {
-        content: '';
-        width: 36px;
-        height: 36px;
-        background-color: $main-color;
-        border-radius: 50%;
-        position: absolute;
-        left: 0px;
-        top: -25%;
-        z-index: -1;
-    }
-}
-
 @mixin gradient_text {
     text-transform: uppercase;
     background: linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%);
