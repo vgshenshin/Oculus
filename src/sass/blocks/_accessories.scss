@@ -8,13 +8,11 @@
         margin-bottom: 30px;
     }
     &__wrapper {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        display: grid;
+        grid-template: 1fr / repeat(4, 1fr);
     }
     &__item {
         padding: 20px;
-        width: 300px;
         min-height: 540px;
         border: 1px solid;
         border-image: linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%) 1;
@@ -39,7 +37,6 @@
         }
         &-btn {
             height: 30px;
-            width: 260px;
             @include gradient_text;
             font-size: 16px;
             font-weight: 700;

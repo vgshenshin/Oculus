@@ -15,10 +15,25 @@
     &__link {
         text-transform: uppercase;
     }
+    &__btn {
+        width: 40px;
+        height: 30px;
+        display: none;
+        flex-direction: column;
+        justify-content: space-between;
+        span {
+            height: 2px;
+            width: 100%;
+            background-color: #000;
+        }
+    }
 }
 
 .logo {
     justify-self: center;
+    img {
+        display: block;
+    }
 }
 
 .basket {

@@ -29,3 +29,16 @@ const toggleBtn = () => {
 }
 
 toggleBtn();
+
+// burger menu
+
+const burgerMenu = document.querySelector('.menu__btn');
+const menu = document.querySelector('.menu');
+
+const toggleBurgerMenu = () => {
+    burgerMenu.addEventListener('click', () => {
+        menu.classList.toggle('menu-active');
+    });
+}
+
+toggleBurgerMenu();
